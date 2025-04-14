@@ -18,7 +18,6 @@ function boton(){
    }
    
    Estudiante.prototype = Object.create(Persona.prototype)
-   Estudiante.prototype.constructor = Estudiante
   
    Estudiante.prototype.registrar = function(){
        return `Registrado en el curso: ${this.curso}, grupo: ${this.grupo}`
@@ -31,7 +30,6 @@ function boton(){
    }
    
    Profesor.prototype = Object.create(Persona.prototype)
-   Profesor.prototype.constructor = Profesor
    
    Profesor.prototype.asignar = function(){
        return `Asignatura: ${this.asignatura}, nivel: ${this.nivel}`
