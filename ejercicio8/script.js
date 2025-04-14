@@ -1,5 +1,5 @@
 function boton(){
-    let text = prompt("Indroduzca una oracion polindromo")
+    let text = prompt("Indroduzca una oracion palindromo")
     let arr = (text.replaceAll(' ','')).split(''), matches=0, i=0, u=(arr.length-1)
 
     while(i<=arr.length){
