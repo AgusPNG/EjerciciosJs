@@ -7,7 +7,6 @@ function boton(){
         result = dado1 + dado2
         array[result-2]++
     }
-    console.log(array)
     
     for(r=2; r<=12; r++)
         console.log(r+":"+array[r-2])
